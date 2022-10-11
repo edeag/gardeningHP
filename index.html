@@ -3,51 +3,75 @@
     <head>
         <title>Gardening 101</title>
         <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
         <header>
             <h1 class="logo_text">Gardening 101</h1>
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">posts</a></li>
+                <li><a href="#" class="secondary_text">home</a></li>
+                <li><a href="#" class="secondary_text">about us</a></li>
+                <li><a href="#" class="secondary_text">posts</a></li>
             </ul>
         </header>
 
-        <div class="sign_up">
-            <h2>Make your garden look amazing now</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam.</p>
-            <button><a target="_blank" href="https://youtu.be/dQw4w9WgXcQ">Sign Up</a></button>
-            <img src="./img/flowers.jpg">
+        <div class="hero">
+            <div class="hero_left">
+                <h2 class="hero_text">Make your own amazing garden now!</h2>
+                <p class="secondary_text hero_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet aliquam.</p>
+                <button><a target="_blank" href="https://youtu.be/dQw4w9WgXcQ">Sign Up</a></button>
+            </div>
+            <div class="hero_right">
+                <img class="flowers_img" src="./img/flowers.jpg" alt="flowers">
+            </div>
         </div>
 
         <section class="info">
-            <h3>Some random information.</h3>
-            <div class="image_conteiner"></div>
-                <p class="subtext">Epic Subtext</p>
-            <div class="image_conteiner"></div>
-                <p class="subtext">Epic Subtext</p>
-            <div class="image_conteiner"></div>
-                <p class="subtext">Epic Subtext</p>
-            <div class="image_conteiner"></div>
-                <p class="subtext">Epic Subtext</p>
+            <h3 class="main_info_text">Some random information.</h3>
+            <div class="info_conteiner">
+                <div class="info_images">
+                    <div class="image_conteiner"></div>
+                    <p class="subtext">Epic Subtext</p>
+                </div>
+
+                <div class="info_images">
+                    <div class="image_conteiner"></div>
+                    <p class="subtext">Epic Subtext</p>
+                </div>
+
+                <div class="info_images">
+                    <div class="image_conteiner"></div>
+                    <p class="subtext">Epic Subtext</p>
+                </div>
+
+                <div class="info_images">
+                    <div class="image_conteiner"></div>
+                    <p class="subtext">Epic Subtext</p>
+                </div>
+            </div>
         </section>
 
         <div class="quote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="quote_text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <div class="quote_author">-lorem ipsum generator 2022</div>
         </div>
 
-        <div class="call_conteiner">
-            <div class="call_to_action">
-                <h4>Call to action time!</h4>
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button>Sign up</button>
+        <div class="sign_up_conteiner">
+            <div class="sign_up">
+                <div class="sign_left">
+                    <h4 class="callto_text">Call to action! It's time!</h4>
+                    <p class="secondary_text">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="sign_right">
+                    <button class="sign_button"><a target="_blank" href="https://youtu.be/dQw4w9WgXcQ">Sign Up</a></button>
+                </div>
             </div>
         </div>
 
         <footer>
-            <p>Im a footer :)</p>
+            <p class="secondary_text">I'm a footer :)</p>
         </footer>
     </body>
 </html>
